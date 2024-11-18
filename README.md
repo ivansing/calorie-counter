@@ -22,9 +22,8 @@ To use the Calorie Counter application on your local machine, follow these steps
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ivansing/calorie-counter.git
    ```
-   Replace `<repository-url>` with the link to your Git repository.
 
 2. **Navigate to the project folder**:
    ```bash
