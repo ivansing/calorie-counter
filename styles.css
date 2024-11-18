@@ -1,0 +1,130 @@
+:root {
+    --light-grey: #f9fafb;
+    --dark-blue: #1e3a5f;
+    --soft-blue: #4f83cc;
+    --accent-yellow: #fdd835;
+    --light-green: #69c87b;
+    --soft-pink: #f8d7da;
+    --dark-red: #c62828;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 18px;
+    background-color: var(--light-grey);
+    color: var(--dark-blue);
+    line-height: 1.8;
+    padding: 40px 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--dark-blue);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 700px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  label,
+  legend {
+    font-weight: 600;
+    color: var(--dark-blue);
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  input,
+  select {
+    min-height: 40px;
+    padding: 10px;
+    border: 1px solid var(--soft-blue);
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: var(--dark-blue);
+    font-size: 1em;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: var(--accent-yellow);
+    outline: none;
+    box-shadow: 0 0 8px rgba(253, 216, 53, 0.4);
+  }
+  
+  fieldset,
+  label,
+  button,
+  input,
+  select {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: var(--soft-blue);
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--dark-blue);
+    box-shadow: 0 6px 15px rgba(30, 58, 95, 0.4);
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-buttons button {
+    width: 48%;
+  }
+  
+  .output {
+    border: 2px solid var(--soft-blue);
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .output span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--dark-blue);
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .surplus {
+    color: var(--soft-pink);
+  }
+  
+  .deficit {
+    color: var(--light-green);
+  }
+  
