@@ -83,6 +83,6 @@ If you have any questions or need further clarification, feel free to reach out 
 
 ---
 
-**Enjoy using the Calorie Counter and stay healthy! ☺️**
+
 
 
